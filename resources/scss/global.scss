@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-main text-base;
+    }
+    h1 {
+        @apply font-headlines text-3xl;
+    }
+    h2 {
+        @apply font-headlines text-2xl;
+    }
+    h3 {
+        @apply font-headlines text-xl;
+    }
+    h4 {
+        @apply font-headlines text-lg;
+    }
+}
+
+/*Mobile Navigation*/
+.nav-collapse {
+    left: 0 !important;
+}
